@@ -106,6 +106,7 @@ definePageMeta({
   pageType: '',
   keepalive: true,
   alias: ['/lecture/:courseSlug'],
+  // layout: 'same-layout',
 });
 const memo = ref('');
 const completed = ref(false);
