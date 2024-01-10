@@ -100,13 +100,13 @@ const route = useRoute();
 const courseSlug = route.params.courseSlug as string;
 const { course, prevCourse, nextCourse } = useCourse(courseSlug);
 
-if (!course) {
-  throw createError({
-    statusCode: 404,
-    statusMessage: 'Course not found',
-    // fatal: true,
-  });
-}
+// if (!course) {
+//   throw createError({
+//     statusCode: 404,
+//     statusMessage: 'Course not found',
+//     // fatal: true,
+//   });
+// }
 
 console.log('[courseSlug].vue 컴포넌트 setup hooks');
 // const title = ref('');
@@ -118,6 +118,23 @@ definePageMeta({
   // keepalive: true,
   alias: ['/lecture/:courseSlug'],
   // layout: 'same-layout',
+  // validate: (route) => {
+  middleware: (route) => {
+    const courseSlug = route.params.courseSlug as string;
+    const { course } = useCourse(courseSlug);
+    if (!course) {
+      // return navigateTo('/');
+      // return false;
+      return abortNavigation(
+        createError({
+          statusCode: 404,
+          statusMessage: 'Course not found',
+          fatal: true,
+        }),
+      );
+    }
+    // return true;
+  },
 });
 const memo = ref('');
 const completed = ref(false);
