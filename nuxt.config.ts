@@ -8,9 +8,9 @@ export default defineNuxtConfig({
   modules: [
     'nuxt-quasar-ui',
     '@pinia/nuxt',
-    '@pinia/nuxt', // needed
     '@pinia-plugin-persistedstate/nuxt',
     '@nuxtjs/i18n',
+    '@vueuse/nuxt',
   ],
   i18n: {
     locales: ['en', 'ko'], // URL 경로 접두사에 사용됨
