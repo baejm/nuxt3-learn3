@@ -20,6 +20,7 @@ useSeoMeta({
   ogDescription: description,
   ogType: 'website',
   ogImage: '/img/og-image.png',
+  googleSiteVerification: 'AZqU1uJ7TliNt1GOfdCIjj_5742XQ6LUJQEaitQJtaA',
 });
 </script>
 <style>
