@@ -22,3 +22,9 @@ useSeoMeta({
   ogImage: '/img/og-image.png',
 });
 </script>
+<style>
+a {
+  text-decoration: none;
+  color: inherit;
+}
+</style>
