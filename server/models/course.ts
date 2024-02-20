@@ -134,8 +134,7 @@ const courses: Course[] = [
     title: 'Vue 강의 끝판왕 : Nuxt 3 완벽 마스터',
     subtitle:
       'Vue 기반으로 성능이 뛰어난 웹을 빠르게 만들 수 있도록 도와주는 Nuxt 프레임워크 강의입니다. 현업에서 Vue를 사용하고 계신 분들이라면 꼭 보셔야하는 강의라고 자신있게 말씀드릴 수 있을 거 같아요~!',
-    thumbnail:
-      'https://private-user-images.githubusercontent.com/46775510/306099643-ac8b4e34-e040-46af-ae37-82fcdf2e608e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDgzODk3MDksIm5iZiI6MTcwODM4OTQwOSwicGF0aCI6Ii80Njc3NTUxMC8zMDYwOTk2NDMtYWM4YjRlMzQtZTA0MC00NmFmLWFlMzctODJmY2RmMmU2MDhlLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAyMjAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMjIwVDAwMzY0OVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWU1MTc0YTg2YTkzYjY0OWUxYmIxNTgyMjg2ODljOGJhMmQ0MGRiYTQ0YThmMDM3YjAwNmNhMzYxMGRkMzJmYjkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.UJhFiHSD6dUcdg62SwrWgRr5zpBHmmP2462kbRdojYI',
+    thumbnail: 'https://i.imgur.com/WPQgRzs.png',
     video: 'https://www.youtube.com/embed/IYtN133pvX4?si=0CG4BH2EACUKp4hP',
     rating: 5.0,
     reviewsCount: 6,
