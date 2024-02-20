@@ -104,7 +104,7 @@
 <script setup lang="ts">
 const route = useRoute();
 const courseSlug = route.params.courseSlug as string;
-const { course, prevCourse, nextCourse } = await useCourse(courseSlug);
+const { course, prevCourse, nextCourse } = (await useCourse(courseSlug)) || {};
 
 // const title = computed(() => course?.title);
 // const description = computed(() => course?.content);
@@ -135,7 +135,7 @@ definePageMeta({
   // validate: (route) => {
   middleware: async (route) => {
     const courseSlug = route.params.courseSlug as string;
-    const { course } = await useCourse(courseSlug);
+    const { course } = (await useCourse(courseSlug)) || {};
     if (!course) {
       // return navigateTo('/');
       // return false;
