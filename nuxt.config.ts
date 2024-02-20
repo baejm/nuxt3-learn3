@@ -42,7 +42,13 @@ export default defineNuxtConfig({
   app: {
     head: {
       title: 'Vue & Nuxt 강의',
-      meta: [{ name: 'description', content: '짐코딩 Vue & Nuxt 강의입니다.' }],
+      meta: [
+        { name: 'description', content: '짐코딩 Vue & Nuxt 강의입니다.' },
+        {
+          name: 'naver-site-verification',
+          content: 'efeaa139f4f29a6dd8bbb4f76c23cd356a588acf',
+        },
+      ],
     },
   },
   runtimeConfig: {
